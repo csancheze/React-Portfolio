@@ -13,7 +13,7 @@ mainDiv: {
 export default function Portfolio() {
   return (
     <div style ={styles.mainDiv} >
-      <h1>Portfolio</h1>
+      <h1 className="m-auto text-center">Portfolio</h1>
       <div className="d-flex justify-content-center flex-column flex-md-row flex-wrap container">
       {
         projects.map((project) => (

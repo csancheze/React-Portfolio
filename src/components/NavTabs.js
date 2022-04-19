@@ -41,6 +41,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          style={styles.buttons}
+          target="_blank"
+          rel="noreferrer"
+          className = "nav-link active text-secondary strong"
+          href="./Resume.pdf"
+        >
+         Resume
+        </a>
+      </li>
     </ul>
   );
 }

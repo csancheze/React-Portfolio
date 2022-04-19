@@ -30,7 +30,8 @@ const styles = {
     color: "white"
   },
   footer: {
-    background:'#212529'
+    background:'#212529',
+    height: '70px',
   }
 }
 
@@ -58,22 +59,22 @@ export default function PortfolioContainer() {
       </div>
       </header>
       {renderPage()}
-      <footer style={styles.footer} className='fixed-bottom'>
-      <div className="col-12 col-lg-5 w-lg-50 m-auto mt-2">
+      <footer style={styles.footer} className='fixed-bottom '>
+      <div className="col-12 col-lg-5 w-lg-50 m-auto">
         <ul  style={styles.list}className="p-2 d-flex flex-row justify-content-around">
-            <li className="col-2 display-6 m-1 p-1 text-center" >
+            <li className="col-2 display-6 p-1 text-center" >
                 <a  style={styles.buttons} href="mailto:scuadra.it@gmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope-square"></i></a>
             </li>
-            <li className="col-2 display-6 m-1 p-1 text-center">
+            <li className="col-2 display-6 p-1 text-center">
                 <a style={styles.buttons} href="https://github.com/csancheze" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
             </li>
-            <li className="col-2 display-6 m-1 p-1 text-center">
+            <li className="col-2 display-6 p-1 text-center">
                 <a style={styles.buttons} href="https://twitter.com/?lang=es" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
             </li>
-            <li className="col-2 display-6 m-1 p-1 text-center">
+            <li className="col-2 display-6 p-1 text-center">
                 <a style={styles.buttons} href="https://wa.me/5215510817016" target="_blank" rel="noreferrer"> <i className="fab fa-whatsapp"></i></a>
             </li>
-            <li className="col-2 display-6 m-1 p-1 text-center">
+            <li className="col-2 display-6 p-1 text-center">
                 <a style={styles.buttons} href="https://www.linkedin.com/in/cesar-san-developer/" target="_blank" rel="noreferrer"> <i className="fab fa-linkedin"></i></a>
             </li>
         </ul>

@@ -5,7 +5,7 @@ import './cards.css';
 const styles= {
   caption: {
     fontSize:'x-small',
-    overflowX: 'scroll',
+    overflowX: 'auto',
     overflowY: 'hidden',
     height: '2em',
     whiteSpace: 'nowrap'
