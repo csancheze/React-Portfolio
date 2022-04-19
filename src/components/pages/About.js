@@ -1,17 +1,38 @@
 import React from 'react';
 
+const styles = {
+  card: {
+    display: 'flex',
+    flexDirection: 'row',
+    margin: '20px'
+  },
+  photo: {
+    width: '100px',
+    height: '110px',
+    borderRadius: '15px',
+    alignSelf: 'center',
+    margin: '5px',
+  },
+  text: {
+    textAlign: 'justify'
+  },
+  mainDiv: {
+    height: '100vh',
+  }
+}
+
+
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div style={styles.mainDiv}>
+      <h1>About me</h1>
+      <div style={styles.card} className="card bg-secondary text-light">
+      <img style={styles.photo} className="card-img-left flex-shrink-0 p-2" src="./img/me.png" alt="Photo of Cesar Sanchez">
+      </img>
+      <p style={styles.text} className="card-text p-3">
+      Hi! I am César. I am currently a Full Stack Web Developer student. I am learning fast to become an efficient developer. I want to be able to create friendly webpages and apps that make communication processes private and easy to use for personal and professional users. I am interested in part-time jobs and freelance projects that are both a challenge and fun. I am also a Clinical Psychologist with private practice. I like videogames, cats and almost every form of audiovisual entertainment.
       </p>
+      </div>
     </div>
   );
 }
