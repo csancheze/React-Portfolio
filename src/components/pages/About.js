@@ -20,7 +20,7 @@ const styles = {
     textAlign: 'justify'
   },
   mainDiv: {
-    height: '100vh',
+    height: '70vh',
   }
 }
 
