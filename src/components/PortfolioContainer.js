@@ -35,8 +35,8 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div style={styles.mainDiv}>
-      <header style={styles.header}>
+    <div style={styles.mainDiv} >
+      <header style={styles.header} className="d-flex flex-column flex-md-row">
       <h1>Cesar Sanchez Portfolio</h1>
       <div style={styles.nav}>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
