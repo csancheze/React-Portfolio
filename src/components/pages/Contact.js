@@ -2,7 +2,7 @@ import React from 'react';
 
 const styles = {
   mainDiv: {
-    height: '70vh',
+    height: '100vh',
   },
   list: {
     listStyle: 'none'

@@ -3,18 +3,23 @@ import Project from '../Project';
 import projects from './projects';
 
 
-const renderCards = () => {
-  for (let i=0; i<projects.length; i++) {
-    return <Project name={projects[i].name} url={projects[i].url} img={projects[i].img} github={projects[i.github]} caption={projects[i].caption}/>
-}
+const styles = {
+mainDiv: {
+  height: 'max-content',
+  paddingBottom: '100px'
+},
 }
 
 export default function Portfolio() {
   return (
-    <div >
+    <div style ={styles.mainDiv} >
       <h1>Portfolio</h1>
       <div className="d-flex justify-content-center flex-column flex-md-row flex-wrap container">
-      {renderCards()} 
+      {
+        projects.map((project) => (
+          <Project name={project.name} url={project.url} img={project.img} github={project.github} caption={project.caption}/>
+        ))
+      }
       </div>
     </div>
   );

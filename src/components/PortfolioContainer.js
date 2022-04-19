@@ -16,7 +16,7 @@ const styles = {
   mainDiv: {
     background: '#212529',
     color: '#9B9D9E',
-    height: '100vh',
+    height: 'max-content',
     fontFamily: "'Roboto Mono', monospace",
     fontSize: '1.0em',
     lineHeight: '1.5'
@@ -28,6 +28,9 @@ const styles = {
   buttons: {
     textDecoration: "none",
     color: "white"
+  },
+  footer: {
+    background:'#212529'
   }
 }
 
@@ -55,7 +58,7 @@ export default function PortfolioContainer() {
       </div>
       </header>
       {renderPage()}
-      <footer>
+      <footer style={styles.footer} className='fixed-bottom'>
       <div className="col-12 col-lg-5 w-lg-50 m-auto mt-2">
         <ul  style={styles.list}className="p-2 d-flex flex-row justify-content-around">
             <li className="col-2 display-6 m-1 p-1 text-center" >

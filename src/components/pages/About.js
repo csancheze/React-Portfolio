@@ -20,7 +20,8 @@ const styles = {
     textAlign: 'justify'
   },
   mainDiv: {
-    height: '70vh',
+    height: '100vh',
+    paddingBottom: '100px'
   }
 }
 
