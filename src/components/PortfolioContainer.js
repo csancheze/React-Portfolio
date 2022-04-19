@@ -57,9 +57,6 @@ export default function PortfolioContainer() {
       {renderPage()}
       <footer>
       <div className="col-12 col-lg-5 w-lg-50 m-auto mt-2">
-        <h3 className="text-center m-auto" id="contact">
-            Contact me
-        </h3>
         <ul  style={styles.list}className="p-2 d-flex flex-row justify-content-around">
             <li className="col-2 display-6 m-1 p-1 text-center" >
                 <a  style={styles.buttons} href="mailto:scuadra.it@gmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope-square"></i></a>
