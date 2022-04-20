@@ -3,7 +3,7 @@
   ## Description
   
   
-This Portfolio is a single page app made with React. It integrates the use of forms, props, conditional rendering and event handling. As my Portfolio, it includes complete web applications and exercises created during the learning process. This app doesn't have a back-end as it is, but will be added in the future.
+This Portfolio is a single page application made with React. It integrates the use of forms, props, conditional rendering and event handling. As my Portfolio, it includes complete web applications and exercises created during the learning process. This app doesn't have a back-end, but it will be added in the future.
 
   
   ## Table of Contents
@@ -24,7 +24,7 @@ This Portfolio is a single page app made with React. It integrates the use of fo
   ## Usage
   
   
-Enter the project in this (link)[https://csancheze.github.io/React-Portfolio/]
+Enter the project in this [link](https://csancheze.github.io/React-Portfolio/)
 
   
   
