@@ -28,7 +28,7 @@ Enter the project in this [link](https://csancheze.github.io/React-Portfolio/)
 
   
   
-![React Portfolio webpage working as expected](assets/images/screenshot.png)
+![React Portfolio webpage working as expected](public/img/screenshot.png)
   
   ## License
   
