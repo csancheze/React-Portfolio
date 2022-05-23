@@ -1,6 +1,12 @@
 const projects = 
 [
     {
+     name: "Woofstel",
+     github: "Project-3",
+     url: "https://woofstel-app.herokuapp.com/",
+     caption: "HTML/CSS/JS/Mongoose/React.js/GraphQL/Nodemailer"
+    },
+    {
      name: "U-meet",
      github: "u-meet",
      url: "https://u-meet-app.herokuapp.com/",
