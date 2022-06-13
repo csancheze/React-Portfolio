@@ -17,11 +17,13 @@ const styles = {
 
   },
   text: {
-    textAlign: 'justify'
+    textAlign: 'justify',
+    marginBottom: '200px'
+
   },
   mainDiv: {
-    height: '100vh',
-    paddingBottom: '100px'
+    height: '100%',
+    paddingBottom: '50px'
   }
 }
 
