@@ -14,6 +14,13 @@ const styles= {
     textDecoration: 'none',
     color: 'white'
 
+  },
+  text: {
+    fontSize: 'small',
+    overflowX: 'auto',
+    overflowY: 'hidden',
+    height: '2em',
+    whiteSpace: 'nowrap'
   }
 }
 
@@ -28,6 +35,7 @@ export default function Project(props) {
          <a style= {styles.appTitle} target="_blank" rel="noreferrer" href={`https://github.com/csancheze/${props.github}`}>
            <h4>{props.name} <i className="fab fa-github"></i></h4></a>
         <figcaption style={styles.caption}>{props.caption} </figcaption>
+        <p style={styles.text}>{props.description}</p>
       </div>
     </figure>            
     

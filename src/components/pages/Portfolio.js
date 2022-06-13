@@ -17,7 +17,7 @@ export default function Portfolio() {
       <div className="d-flex justify-content-center flex-column flex-md-row flex-wrap container">
       {
         projects.map((project) => (
-          <Project name={project.name} url={project.url} img={project.img} github={project.github} caption={project.caption}/>
+          <Project name={project.name} url={project.url} img={project.img} github={project.github} caption={project.caption} description={project.description}/>
         ))
       }
       </div>
