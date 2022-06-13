@@ -1,10 +1,16 @@
 const projects = 
 [
     {
+        name: "Plataforma-Psi",
+        github: "plataforma-psi",
+        url: "https://plataforma-psi.herokuapp.com/",
+        caption: "HTML/CSS/JS/Mongoose/React.js/GraphQL/EmailJs"
+    },
+    {
      name: "Woofstel",
-     github: "Project-3",
+     github: "woofstel",
      url: "https://woofstel-app.herokuapp.com/",
-     caption: "HTML/CSS/JS/Mongoose/React.js/GraphQL/Nodemailer"
+     caption: "HTML/CSS/JS/Mongoose/React.js/GraphQL/EmailJs"
     },
     {
      name: "U-meet",
