@@ -14,8 +14,8 @@ const projects =
     },
     {
      name: "NXT Movie App",
-     github: "Nxt-Movie-project",
-     url: "https://csancheze.github.io/Nxt-Movie-project/",
+     github: "Nxt-Movie",
+     url: "https://csancheze.github.io/Nxt-Movie/",
      caption: "HTML/CSS/Bulma/Javascript/APIs"
     },
     {
