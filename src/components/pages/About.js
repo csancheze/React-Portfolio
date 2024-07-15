@@ -23,7 +23,8 @@ const styles = {
   },
   mainDiv: {
     height: '100%',
-    paddingBottom: '50px'
+    paddingBottom: '50px',
+    backgroundColor: "#212529"
   }
 }
 
@@ -31,8 +32,18 @@ const styles = {
 export default function About() {
   return (
     <div style={styles.mainDiv}>
+      <div aria-live="polite" aria-atomic="true" style={{position: "relative", "minHeight": "200px", display:"block"}}>
+            <div className="card" role="alert" aria-live="assertive" aria-atomic="true">
+                <div className="toast-header">
+                  <strong className="mr-auto">Portfolio</strong>
+                </div>
+                <div className="toast-body">
+                  My heroku is down, so the projects that required a working back-end are not working.
+                </div>
+              </div></div>
       <h1 className="m-auto text-center">About me</h1>
       <div style={styles.card} className="card bg-secondary text-light">
+        
       
       <p style={styles.text} className="card-text p-3"><img style={styles.photo} className="card-img-left flex-shrink-0 p-2" src="./img/me.png" alt="Cesar Sanchez">
       </img>

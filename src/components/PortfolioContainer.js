@@ -16,7 +16,7 @@ const styles = {
   mainDiv: {
     background: '#212529',
     color: '#9B9D9E',
-    height: 'max-content',
+    height: "100%",
     fontFamily: "'Roboto Mono', monospace",
     fontSize: '1.0em',
     lineHeight: '1.5'
