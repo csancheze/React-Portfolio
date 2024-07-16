@@ -1,6 +1,34 @@
 const projects = 
 [
     {
+        name: "Shipments API",
+        github: "private",
+        url: "private",
+        caption: ", AWS CI/CD, AdonisJs, NodeJs, APIs, Vtex, Javascript",
+        description: "Back-end Microservice Integration for Rates, Shipments and Tracking"
+    },
+    {
+        name: "Orders API",
+        github: "private",
+        url: "private",
+        caption: "AWS CI/CD, AdonisJs, NodeJs, APIs, Vtex, Javascript" ,
+        description: "Back-end Microservice Integration for Order management"
+    },
+    {
+        name: "ERP Integrations",
+        github: "private",
+        url: "private",
+        caption: ", AWS CI/CD, AdonisJs, NodeJs, APIs, Vtex, Javascript, Producteca",
+        description: "Back-end Microservice Apps for Integrating a Product-Order Workflow"
+    },
+    {
+        name: "Microservices APIs",
+        github: "private",
+        url: "private",
+        caption: "AWS, Lambda, APIs, Vtex, Javascript",
+        description: "Back-end Microservices running on AWS Lambda using AWS API Gateway"
+    },
+    {
         name: "Plataforma-Psi",
         github: "plataforma-psi",
         url: "https://plataforma-psi.herokuapp.com/",
