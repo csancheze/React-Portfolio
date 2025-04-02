@@ -47,7 +47,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           target="_blank"
           rel="noreferrer"
           className = "nav-link active text-secondary strong"
-          href="./Resume.pdf"
+          href="./Updated_Resume_Styled.docx"
         >
          Resume
         </a>
