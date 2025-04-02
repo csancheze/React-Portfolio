@@ -49,9 +49,9 @@ export default function About() {
       </img>
       Hi! I am César. <br></br>
 
-Web Developer with analytical skills developed by a solid background in clinical psychology. Recently finished successfully a Full-Stack Web Development Bootcamp. Adquired and developed skills in HTML, CSS, JavaScript, MongoDB/Mongoose, Node/Express.js, and React/GraphQL. I have always been passionate about problem solving and goal-oriented. In Web Development, this translates to hard work, unrelenting search for solutions and creative thinking to surpass barriers and blocks. I am skillful on setting up the Front-end while most of the time I end up working on the Back-end and the connection between both due to feeling more comfortable and confident than my peers. This was the case in a single-page MERN App project in which I have recently participated. My objective is to create responsive, useful and friendly web applications as I continue learning how to do it more efficiently.
+Web Developer working on back-end microservices for more than 2 years. Adquired and developed skills in HTML, CSS, JavaScript, MongoDB/Mongoose, Node/Express.js, and React/GraphQL. I have always been passionate about problem solving and goal-oriented. In Web Development, this translates to hard work, unrelenting search for solutions and creative thinking to surpass barriers and blocks. I am skillful on setting up the Front-end while most of the time I end up working on the Back-end and the connection between both. This was the case in a single-page MERN App project in which I have recently participated. My objective is to create responsive, useful and friendly web applications as I continue learning how to do it more efficiently.
 <br></br>
-I am interested in part-time jobs and freelance projects that are both a challenge and fun. I am also a Clinical Psychologist with private practice. I like videogames, cats and almost every form of audiovisual entertainment.
+I am interested in full-time jobs, part-time jobs and freelance projects that are both a challenge and fun. I like videogames, cats and almost every form of audiovisual entertainment.
       </p>
       </div>
     </div>
